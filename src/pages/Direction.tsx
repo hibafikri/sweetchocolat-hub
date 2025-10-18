@@ -14,36 +14,38 @@ const Direction = () => {
     direction: {
       title: "Direction Générale",
       members: [
-        { name: "Ahmed Bennani", role: "Directeur Général" }
+        { name: "SAADNI CHAMA", role: "Directeur Général" }
       ]
     },
     departments: [
       {
         title: "Direction Production",
         members: [
-          { name: "Fatima Zahra El Amrani", role: "Directrice Production" },
-          { name: "Omar Rachidi", role: "Chef d'Équipe Production" }
+          { name: "FIKRI HIBA", role: "Directrice Production" }
         ]
       },
       {
         title: "Direction Qualité",
         members: [
-          { name: "Karim Alaoui", role: "Responsable Qualité" },
-          { name: "Salma Tazi", role: "Contrôleur Qualité" }
+          { name: "Ourchane Abdelmounim", role: "Directeur Qualité" }
         ]
       },
       {
-        title: "Direction Commerciale",
+        title: "Direction Commerciale et Marketing",
         members: [
-          { name: "Mehdi Chraibi", role: "Directeur Commercial" },
-          { name: "Nadia Bennani", role: "Responsable Ventes" }
+          { name: "ZOUAOUI SALIM", role: "Directeur Commercial et Marketing" }
+        ]
+      },
+      {
+        title: "Direction Financière",
+        members: [
+          { name: "ES.SADQI SALMA", role: "Directrice Financière" }
         ]
       },
       {
         title: "Direction RH",
         members: [
-          { name: "Laila Idrissi", role: "Responsable RH" },
-          { name: "Youssef Mansouri", role: "Assistant RH" }
+          { name: "HAMDAOUI AKRAM", role: "Directeur RH" }
         ]
       }
     ]

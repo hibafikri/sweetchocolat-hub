@@ -8,53 +8,60 @@ const SMQ = () => {
 
   const sections = [
     {
-      id: "politique-qualite",
-      icon: Target,
-      title: "Politique Qualité",
-      description: "Notre engagement envers l'excellence et la satisfaction client",
+      id: "gouvernance",
+      icon: Shield,
+      title: "Gouvernance et Organisation du SMQ",
+      description: "Structure et organisation du système de management de la qualité",
       color: "from-accent to-accent/70"
     },
     {
-      id: "procedures",
-      icon: FileText,
-      title: "Procédures et Processus",
-      description: "Documentation complète de nos processus qualité",
+      id: "contexte",
+      icon: Target,
+      title: "Contexte de l'organisme (Chapitre 4)",
+      description: "Compréhension de l'organisation et de son contexte",
       color: "from-primary to-primary/70"
     },
     {
-      id: "certifications",
-      icon: Award,
-      title: "Certifications",
-      description: "Nos certifications et conformités réglementaires",
+      id: "leadership",
+      icon: Users,
+      title: "Leadership (Chapitre 5)",
+      description: "Engagement de la direction et politique qualité",
       color: "from-secondary to-secondary/70"
     },
     {
-      id: "audits",
+      id: "planification",
       icon: ClipboardCheck,
-      title: "Audits et Contrôles",
-      description: "Programme d'audits internes et externes",
+      title: "Planification (Chapitre 6)",
+      description: "Actions face aux risques et opportunités",
       color: "from-accent to-accent/70"
     },
     {
-      id: "formation",
-      icon: Users,
-      title: "Formation du Personnel",
-      description: "Plans de formation et développement des compétences",
+      id: "support",
+      icon: Award,
+      title: "Support (Chapitre 7)",
+      description: "Ressources, compétences et communication",
       color: "from-primary to-primary/70"
+    },
+    {
+      id: "realisation",
+      icon: FileText,
+      title: "Réalisation des activités opérationnelles (Chapitre 8)",
+      description: "Planification et maîtrise opérationnelles",
+      color: "from-secondary to-secondary/70"
+    },
+    {
+      id: "evaluation",
+      icon: ClipboardCheck,
+      title: "Évaluation de la performance (Chapitre 9)",
+      description: "Surveillance, mesure, analyse et évaluation",
+      color: "from-accent to-accent/70"
     },
     {
       id: "amelioration",
-      icon: Shield,
-      title: "Amélioration Continue",
-      description: "Actions correctives et préventives",
-      color: "from-secondary to-secondary/70"
-    },
-    {
-      id: "documentation",
-      icon: FileText,
-      title: "Gestion Documentaire",
-      description: "Organisation et archivage de la documentation qualité",
-      color: "from-accent to-accent/70"
+      icon: Target,
+      title: "Amélioration (Chapitre 10)",
+      description: "Non-conformités et amélioration continue",
+      color: "from-primary to-primary/70"
     }
   ];
 
