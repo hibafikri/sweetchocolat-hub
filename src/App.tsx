@@ -5,7 +5,8 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import SMQ from "./pages/SMQ";
-import SMQDetail from "./pages/SMQDetail";
+import SMQSubsections from "./pages/SMQSubsections";
+import SMQContent from "./pages/SMQContent";
 import Direction from "./pages/Direction";
 import NotFound from "./pages/NotFound";
 
@@ -20,7 +21,8 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/smq" element={<SMQ />} />
-          <Route path="/smq/:section" element={<SMQDetail />} />
+          <Route path="/smq/:section" element={<SMQSubsections />} />
+          <Route path="/smq/:section/:subsection" element={<SMQContent />} />
           <Route path="/direction" element={<Direction />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />

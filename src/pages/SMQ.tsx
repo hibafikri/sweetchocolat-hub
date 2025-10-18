@@ -48,6 +48,13 @@ const SMQ = () => {
       title: "Amélioration Continue",
       description: "Actions correctives et préventives",
       color: "from-secondary to-secondary/70"
+    },
+    {
+      id: "documentation",
+      icon: FileText,
+      title: "Gestion Documentaire",
+      description: "Organisation et archivage de la documentation qualité",
+      color: "from-accent to-accent/70"
     }
   ];
 
